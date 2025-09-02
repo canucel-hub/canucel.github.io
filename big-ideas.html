@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Big Ideas | My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #0b5cff;
+      color: white;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+    }
+    .idea {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Big Ideas</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="big-ideas.html">Big Ideas</a>
+      <a href="documentation.html">Documentation</a>
+    </nav>
+  </header>
+
+ 
+  <footer>
+    <p>© <span id="year"></span> My Website</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
