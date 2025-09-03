@@ -1,4 +1,6 @@
-
+title: "Can Selçuk Ücel"
+theme: jekyll-theme-minimal
+description: "Bu site projeler ve yazılım konularını içerir.1
 <div class="video-embed">
   <iframe
     src="https://drive.google.com/file/d/16IggK2cuydwBwCzA-mL3p0j0ooyiHt6u/view?usp=sharing"
